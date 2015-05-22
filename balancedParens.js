@@ -22,9 +22,10 @@ function balancedParens(str) {
     }
   }
   return stack.length === 0;
-  //return true; if it's return true
-  // instead of stack.length === 0,
-  // then some false examples come up as true
+  //return true; if stack.length === 0
+  // else, return false. because if there's anything
+  // left in the stack, then it means that there
+  // were a disproportionate amount of parens
 };
 
 console.log(balancedParens("{da}}"));
