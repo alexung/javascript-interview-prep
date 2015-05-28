@@ -5,7 +5,7 @@ function bubbleSort(array) {
         holder,
         index,
         nextIndex;
-    // some() tests whether some element in the array
+    // some() tests whe}ther some element in the array
     // passes the test implemented by the function within
     // returns 'true' if so, and 'false' if not
     do {

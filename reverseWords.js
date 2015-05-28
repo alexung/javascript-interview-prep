@@ -6,3 +6,10 @@ function reverseWords(str) {
   }
   return newArr.join(' ');
 }
+
+var foo = "Hello";
+(function() {
+  var bar = " World";
+  return foo + bar;
+})();
+return foo + bar;

@@ -1,6 +1,6 @@
 function Palindrome(str) {
 
-  if (str.split(" ").join("") === customReverse(str).split(" ").join("")) {
+  if (str.split("").join("") === customReverse(str).split("").join("")) {
    return true;
   }
 
